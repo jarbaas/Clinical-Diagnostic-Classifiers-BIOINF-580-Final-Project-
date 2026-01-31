@@ -58,5 +58,27 @@ Develop a multi-class classifier to identify 7 distinct types of skin lesions us
 
 ### Dependencies
 Install the required libraries:
-```bash
+```
 pip install numpy torch scikit-learn medmnist
+```
+Running the Project
+
+1. Clone this repository.
+
+2. Ensure you have data files (ecg_train_data.npz, ecg_valid_data.npz) in the root directory. Note: Original .npz files exceed GitHub sharing limits, but custom ECG data can be obtained/generated for testing. Note2: The DermaMNIST data is downloaded automatically by the script.
+
+3. Open the notebook:
+```
+jupyter notebook Final_Project_jarbaas.ipynb
+```
+4. Run all cells to train the models and reproduce the results.
+
+Acknowledgments
+
+- Course: BIOINF 580 (University of Michigan)
+
+- Datasets: Private course data (ECG) and MedMNIST (Derma).
+
+- AI Tools: Gemini was used to assist with debugging pytorch tensor shapes and optimizing transformer syntax.
+
+
